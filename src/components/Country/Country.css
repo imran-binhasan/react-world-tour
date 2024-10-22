@@ -1,0 +1,27 @@
+.country-card{
+    border: 1px solid lightblue;
+    padding: 25px;
+    margin: 15px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 1px rgb(231, 238, 241);
+    background: rgb(245, 245, 245,0.5);
+}
+
+.image-box img{
+    max-height: 140px;
+}
+
+.text-box{
+    text-align: justify;
+    padding: 0px 20px;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.visited{
+    background-color: rgb(132, 233, 132);
+    color: white;
+}

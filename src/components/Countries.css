@@ -1,0 +1,39 @@
+.all-country-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.visited-container,.flag-container{
+    text-align: justify;
+    padding: 0px 25px;
+    margin: 20px 0px;
+}
+
+.visited-country-list{
+    font-weight: 500;
+
+}
+
+.visited-country-list li{
+    line-height: 1.5em;
+    font-size: 1.1em;
+    text-align: justify;
+}
+
+.flag-box{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    margin: 5px auto;
+    justify-content: space-around;
+}
+
+.flag-box div{
+    width: 200px;
+    margin-bottom: 15px;
+}
+
+.flag-box div img{
+    max-width: 180px;
+    max-height: 100px;
+}
